@@ -47,8 +47,6 @@ def compute_o2_co2_rating(logs: list) -> int:
     return int(''.join(o2_logs[0]),2)*int(''.join(co2_logs[0]),2)
 
 
-
-
 def main():
     # To run test cases pass file name as test_case.txt
     file_name = 'input.txt'
